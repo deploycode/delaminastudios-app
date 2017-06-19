@@ -1,0 +1,274 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family: Yu Gothic;
+    color: #aeaeae;
+
+}
+li a img{
+	width: 40px;
+}
+a{
+	text-decoration: none;
+}
+body{
+	background: #fff;
+	text-align: center;
+}
+footer{
+	width: 100%;
+	text-align: right;
+	color: gray;
+	float: right;
+	font-size: 12;
+	padding: 1em;
+}
+footer a{
+	text-decoration: underline;
+	color: #ccc;
+}
+input{
+	border-radius: 0px;
+}
+/*-------------------------------------------------------------------------*/
+div#nav{
+	background-color: white;
+	width: 1249px;
+	margin: auto;
+}
+#menu_gral {
+ float: right;
+ margin-right: 3em;
+
+}
+#menu_gral ul {
+    list-style-type: none; 
+    text-align: center;
+    font-size: 0;
+
+}
+
+#menu_gral > ul li {
+    display: inline-block;
+    position: relative;
+     
+}
+#menu_gral li a {
+	width: 100px; 
+    height: 90px;
+    display: block;
+    text-decoration: none;
+    font-size: 0.8rem;
+    line-height: 2.5rem;
+    color:gray;
+    padding: 1em;
+ 	
+}
+#menu_gral li:hover a, #menu_gral li a:focus {
+    color: white;
+    font-weight: bold;
+    border-radius: 10px;
+  	
+    background-color:#ADD8E6;
+    -ms-transition: all 0.5s ease-in;
+	-moz-transition: all 0.5s ease-in;
+	-o-transition: all 0.5s ease-in;
+	-webkit-transition: all 0.5s ease-in;
+	transition: all 0.5s ease-in;
+}
+#menu_gral li ul {
+    position: absolute;
+    width: 0;
+
+    overflow: hidden;
+}
+#menu_gral li:hover ul, #menu_gral li:focus ul {
+    width: 100%;
+    
+
+    margin: -23rem 0 0 -4rem ;
+    /*margin: 0 -4rem -4rem -4rem;*/
+    padding: 0 4rem 4rem 4rem;
+    z-index: 5;
+}
+#menu_gral li li {
+    display: block;
+    width: 100%;
+}
+#menu_gral li:hover li a, #menu_gral li:focus li a {
+    font-family: Yu Gothic ;
+    font-size: .9rem;
+    line-height: 1.7rem;
+    border-top: 1px solid #e5e5e5;
+    background-color:#ADD8E6;
+}
+#menu_gral li li a:hover, #menu_gral li li a:focus {
+    background: #8AA9B8; 
+}
+/*------------------------------------------------------------------------------*/
+
+.portafolio{
+	background-color: #212121;
+	width: 600px;
+	height: 400px;
+	display: inline-block;
+	vertical-align: top;
+}
+.principal {
+	width: 1300px;
+	height: 680px;
+	overflow: hidden;
+	border: 0px solid #ccc;
+	background: #fff;
+	margin:auto;
+
+	text-align: center;
+
+}
+.contenedor {
+	max-height: 450px;
+	min-height: 450px;
+ 	width:1250;
+ 	opacity: 0.9;
+ 	margin:auto;
+ 	color:white;
+ 	text-align: center;
+ 	overflow: auto;
+}
+.noticia_div  {
+	width:15%;
+	padding:0.8em;
+	margin:auto;
+	display: inline-block;
+	text-align: center;
+	margin-top: auto;
+	color: black;
+	text-align: center;
+  }
+.post{
+	
+	width: 250px;
+	height: 300px;
+	overflow: hidden;
+	display:inline-block;
+-webkit-box-shadow: 0px 6px 32px -6px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 6px 32px -6px rgba(0,0,0,0.75);
+box-shadow: 0px 6px 32px -6px rgba(0,0,0,0.75);
+	text-align: center;
+	padding: 1em;
+
+}
+.post img{
+	width: 250px;
+	height: 150px;
+	
+}
+.postDescripcion{
+	font-size: 15px;
+}
+.postTexto{
+	text-align: left;
+}
+.postContenido{
+	width: 500px;
+	margin: auto;
+}
+hr{
+	border: 1px solid #aeaeae;
+}
+table#comentario_tbl{
+	vertical-align: top;
+	padding: 1em;
+	display: block;
+	width: auto;
+}
+table#comentar{
+	display: block;
+	width: 100%;
+}
+table#comentar textarea{
+	display: block;
+	width: 100%;
+}
+table#comentar{
+	text-align:  right;
+}
+label#usuario_lbl{
+	background-color: #DDD;
+	padding: 0.5em;
+	border-radius: 5px;
+	width: auto;
+}
+td#usuario_td{
+	width: 200px;
+}
+
+form#form_articulo{
+	padding: 1em;
+
+}
+
+form#form_articulo textarea{
+	width: 100%;
+}
+
+.table {
+	text-align: center;
+	margin:  auto;
+
+}
+.Login{
+	width:400;
+	font-size: 20px;
+	padding: 1em;
+	border-radius: 0.3em;
+	size:30;
+	height:25;
+}
+.boton{
+	width:auto;
+	height: auto;
+	font-size: 20px;
+	padding: 0.3em;
+	border-radius: 0.3em;
+	margin: 0.5em;
+}
+.imagen_div img {
+	border: 0px solid #ccc;
+	width: auto;
+}
+
+.titulo_div {
+
+	font-size: 40px;
+
+
+}
+
+.descripcion {
+
+
+
+}
+
+.articulo_div {
+	border: 1px solid #ccc;
+	width: 60%;
+	
+
+} 
+
+.articulo {
+	border: 0px solid #ccc;
+	font-family:Yu Gothic;
+	font-size: 17px;
+	text-align: justify;
+
+
+} 
+
+
+
+
